@@ -5,7 +5,7 @@ body{
 }
 .menu-trabalhe{
     width: 100%;
-    background-color: #050a2f;
+    background-color: #000000;
     height: 60px;
 }
 .image1{
@@ -43,11 +43,11 @@ main, .content{
    
 }
 .trabalhe ul li :hover{
-    border-bottom: 3px solid #00bac6;
+    border-bottom: 3px solid #680202;
  
 }
 .trabalhe ul li a:hover{
-    color: #00bac6;
+    color: #680202;
 }
 .trabalhe ul li a{
     color: #8b8b8b;
@@ -131,7 +131,7 @@ button.slick-next{
     top: 450px;  
 }
 li.slick-active button{
-    background: #00bac6;
+    background: #680202;
 }
 .slick-dots li{
     display: inline-block;
@@ -161,7 +161,7 @@ li.slick-active button{
 }
 .botao{
     font-size: 1.2em;
-    background: #050a2f;
+    background: #680202;
     border: 0;
     margin-bottom: 1em;
     color: #ffffff;
@@ -171,7 +171,7 @@ li.slick-active button{
     position: absolute;
     z-index: 9;
     top: 153%;
-    left: 48%;  
+    left: 90%;  
     margin-right:  -50%;
     transform: translate(-50%, -50%);
    
@@ -224,7 +224,7 @@ h3{
 #logo_footer{
     left: 60px;
     padding: 10px;
-    margin-left: -90px;
+    margin-left: -68px;
     
 }
 
@@ -262,7 +262,7 @@ h3{
 
 .footer2{ 
     width: 100%; 
-    background-color:#050A30; 
+    background-color:#680202; 
     height: 60px; 
     margin: 0 auto; 
     width: 980px; 

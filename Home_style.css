@@ -34,17 +34,17 @@ main, .content{
     float: right;
 }
 ::selection{
-  color: #5ba1f7;
+  color: #680202;
   background: #fff;
 }
 nav{
   position: fixed;
-  background: #050a2f;
+  background: #000000;
   width: 100%;
   padding: 0px;
   z-index: 12;
   height: 58px;
-  border-bottom: 3px solid #14efe3;
+  border-bottom: 3px solid #680202;
 }
 nav .menu{
   max-width: 1250px;
@@ -80,11 +80,11 @@ nav .menu{
   transition: all 0.3s ease;
 }
 .menu ul li a:hover{
-  background: #5ba1f7;
+  background: #680202;
   color: #000000;
 }
 .img2{
-  background: #050a2f no-repeat;
+  background: #680202 no-repeat;
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -99,7 +99,7 @@ nav .menu{
   background: rgba(0, 0, 0, 0.4);
 }
 .img{
-  background: url('img/final3.gif');
+  background: url('img/FINAL4.gif');
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -154,7 +154,7 @@ nav .menu{
   background: none;
 }
 .btns button:first-child:hover{
-  background: #5ba1f7;
+  background: #680202;
   color: black;
 }
 .center .btns button:last-child{
@@ -162,7 +162,7 @@ nav .menu{
   color: #fff;
 }
 .center button:last-child:hover{
-  background: #5ba1f7;
+  background: #680202;
   color: black;
 }
                
@@ -174,7 +174,7 @@ nav .menu{
 
 
 .header-2{
-  background-color: #050a2f;
+  background-color: #680202;
   width: 1080px;
   margin: 0 auto;
   padding: 0px;
@@ -187,15 +187,15 @@ nav .menu{
  
 }
 .trabalhe ul li :hover{
-  border-bottom: 3px solid #00bac6;
+  border-bottom: 3px solid #680202;
 
  
 }
 .trabalhe ul li a:hover{
-  color: #00bac6;
+  color: #680202;
 }
 .trabalhe ul li a{
-  color: #7fbbff;
+  color: #fff;
   text-decoration: none;
   font-size: 18px;
   text-transform: uppercase;
@@ -220,7 +220,7 @@ nav .menu{
   margin-top: 10px;
 }
 .col-100{
-  background-color: #091b1d;
+  background-color: #000000;
   width: 100%;
   float: left;
   position: relative;
@@ -232,5 +232,5 @@ ul{
 .trbalhe-urls{
   
       height: 30px;
-    border-bottom: 3px solid #008079;
+    border-bottom: 3px solid #680202;
     }

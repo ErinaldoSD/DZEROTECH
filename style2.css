@@ -6,10 +6,8 @@ body{
 }
 .menu-trabalhe{
     width: 100%;
-    background-color: #050a30;
+    background-color: #000000;
     height: 60px;
-     
-     
 
 }
 .image1{
@@ -61,12 +59,12 @@ main, .content{
     
 }
 .trabalhe ul li :hover{
-    border-bottom: 3px solid #00bac6;
+    border-bottom: 3px solid #680202;
 
     
 }
 .trabalhe ul li a:hover{
-    color: #00bac6;
+    color: #680202;
 }
 .trabalhe ul li a{
     color: #8b8b8b;
@@ -100,10 +98,6 @@ main, .content{
     width: 100%;
     float: left;
     position: relative;
-    max-height: 1000px;
-     max-width: max-content;
-     object-fit: contain;
-     padding-bottom: 50px;
 }
 ul{
     padding: 0px !important;
@@ -113,13 +107,12 @@ ul{
     border-bottom: 3px solid #efefef;
 }
 button.slick-prev{
-     font-size: 0px;
+    font-size: 0px;
      border: none;
      width: 25px;
      height: 51px;
      background-color: transparent;
-    /* background-image: url(anterior.png);
-*/
+     background-image: url(img/anterior.png);
      position: absolute;
      z-index: 9;
      top: 35%;
@@ -129,10 +122,10 @@ button.slick-prev{
 button.slick-next{
     font-size: 0px;
     border: none;
-    width: 0px;
-    height: 0px;
+    width: 25px;
+    height: 51px;
     background-color: transparent;
-   /* background-image: url(proximo.png); */
+    background-image: url(img/proximo.png);
     position: absolute;
     z-index: 9;
     top: 35%;
@@ -144,12 +137,11 @@ button.slick-next{
 }
 .slick-dots li button{
     font-size: 0px;
-    border: 0px solid #ffffff;
-    width: 0px;
-    height: 0px;
-    
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
     background: transparent;
-    border-radius: 0%;
+    border-radius: 50%;
     cursor: pointer;
 }
 .slick-dots{
@@ -159,143 +151,135 @@ button.slick-next{
     left: 45%;
     top: 450px;  
 }
-/*/li.slick-active button{
-     
-}*/
+
 .slick-dots li{
     display: inline-block;
     padding: left 0px;
 }
- 
-
-footer {
-    position: fixed;
-    bottom: 0;
-    background-color: blue;
-    color: #FFF;
-    width: 100%;
-    height: 100px;	
-    text-align: center;
-    line-height: 100px;
-    margin-top: 5%;
+li.slick-active button{
+    background: #680202;
 }
 
+.slick-dots li{
+    display: inline-block;
+    padding: left 10px;
+}
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.texto-destaque{
+    text-align: center;
+}
+.texto-destaque h1{
+    color: #818181;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.texto-destaque strong{
+    color: #4f4b4b;
+}
+.texto-destaque p{
+    color: #9a9a9a;
+    font-size: 15px;
+}
+.col-3{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.bloco-texto{
+    margin-top: 1em;
+}
+h3{
+    font-weight: normal !important;
+}
+.col-4{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.col-4 ing{
+    margin:0 auto;
+}
+
+.footer h3 { 
+    text-align: left; 
+} 
+
+.footer { 
+  /*  background-image: url("img/footer.png");*/
+  background-color: #333131; 
+    color: #ffffff; 
+
+} 
+
+.footer-2 {
+    background-image: url("img/footer2.png");
+    color: #c1c1c1;
+    height: 54px;
+}
+
+.footer p { 
+    width: 90%; 
+    text-align: left; 
+} 
+
+.footer-2 p { 
+    padding: 10px; 
+} 
+
+.logo3 { 
+
+    color: #ffffff!important; 
+}
+#logo_footer{
+    left: 30px;
+    padding: 10px;
+    margin-left: -5px;
     
 }
- 
- 
-footer{
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgb(0, 0, 0);
-    height: auto;
-    width: 100%;
 
-    padding-top: 5px;
-    color: #fff;
-}
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-     
-}
-.footer-content h3{
-    font-size: 2.1rem;
-    font-weight: 500;
-    text-transform: capitalize;
-    line-height: 3rem;
-}
-.footer-content p{
-    max-width: 100%;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-    color: #cacdd2;
-}
-.socials{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
-}
-.socials li{
-    margin: 0 10px;
-}
-.socials a{
-    text-decoration: none;
-    color: #fff;
-    border: 1.1px solid white;
-    padding: 5px;
+.logo3:before { 
+    content: 0;
+    top: 20px; 
+    width:  15px; 
+    height: 0,5em; 
+    display: inline-block; 
+    background-repeat: no-repeat; 
+    padding-left: 1px; 
+} 
 
-    border-radius: 50%;
+.local:before, .emailico:before, .telefoneico:before { 
+    content: ''; 
+    width:  17px; 
+    height: 24px; 
+    display: inline-block; 
+    float: left; 
+    background-repeat: no-repeat; 
+    padding-left: 5px; 
+} 
 
-}
-.socials a i{
-    font-size: 1.1rem;
-    width: 20px;
+.local:before { 
+    background-image: url('img/local.png'); 
+}   
 
+.emailico:before { 
+    background-image: url('img/email.png'); 
+}   
 
-    transition: color .4s ease;
+.telefoneico:before { 
+    background-image: url('img/telefoneico.png'); 
+}   
 
-}
-.socials a:hover i{
-    color: aqua;
-}
-
-.footer-bottom{
-    background: #000;
-    width: 100%;
-    padding: 20px;
-padding-bottom: 40px;
-    text-align: center;
-}
-.footer-bottom p{
-float: left;
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-}
-.footer-bottom p a{
-  color:#44bae8;
-  font-size: 16px;
-  text-decoration: none;
-}
-.footer-bottom span{
-    text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
-}
-.footer-menu{
-  float: right;
-
-}
-.footer-menu ul{
-  display: flex;
-}
-.footer-menu ul li{
-padding-right: 10px;
-display: block;
-}
-.footer-menu ul li a{
-  color: #cfd2d6;
-  text-decoration: none;
-}
-.footer-menu ul li a:hover{
-  color: #27bcda;
-}
-
- 
+.footer2{ 
+    width: 100%; 
+    background-color:#680202; 
+    height: 60px; 
+    margin: 0 auto; 
+    width: 980px; 
+    position: relative; 
+} 
  
 
 body hr{
@@ -323,7 +307,7 @@ form h1 {
      
     border-color: #FFFFFF;
      padding-left: 10%; 
-    color: #050a30;
+    color: #680202;
     text-shadow: 2px 2px 2px black;
     font-size: 45px;
       
@@ -342,14 +326,14 @@ input, textarea {
 
 input:hover, textarea:hover, input:focus, textarea:focus {
     border-color: #000066;
-    box-shadow: 2px 2px 2px #050a30;
+    box-shadow: 2px 2px 2px #680202;
     background-color: #f7fcfc;
     color: black;
     font-weight: bold;
 }
 
 .enviar {
-    background-color: #050a30;
+    background-color: #680202;
     height: 40px;
     width: 100px;
     font-weight: bold;
@@ -395,11 +379,8 @@ form label {
      padding-right: 10px;
      padding-left: 10px;
 }
-#logo_footer{
-    left: 60px;
-    padding: 15px;
-    margin-left: -50px;
-}
+
+
    #coluna2{
     width: 250px;
     height: 250px;
